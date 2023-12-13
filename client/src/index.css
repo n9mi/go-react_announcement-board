@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #13012b;
+}
+
+.main-title {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.announcement {
+  color: #ffffff;
+  background-color: #0A0321;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.announcement__title {
+  background-color: #0A0118;
+  border-radius: 5px 5px 0 0;
+  font-weight: 800;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.announcement__date {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.announcement__content {
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+.announcement__action {
+  float: right;
+  border: none;
+  border-radius: 5px;
+  background-color: #0DBDB3;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+.navigation__item {
+  margin: 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-title {
+  color: #ffffff;
+}
+
+.save__label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.save__form, .save__form:focus  {
+  color: #ffffff;
+  border: none;
+  background-color: #0A0321;
+}
